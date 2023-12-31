@@ -23,7 +23,7 @@ var swiper = new Swiper(".produtos", {
     autoplay: true,
     speed: 2000,
     slidesPerView: 4,
-    spaceBetween: 47,
+    spaceBetween: 10,
     centeredSlides: true,
     pagination: {
     el: ".swiper-pagination",
