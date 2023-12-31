@@ -1993,8 +1993,8 @@ footer {
 }
 
 #oferta .oferta-precos .cards-preco .cards-preco-conteudo {
-    margin: -70px -15px;
-    padding: 100px 10px;
+    margin: -70px -10%;
+    padding: 90px 20px;
 }
 
 #oferta .oferta-precos #kit-ouro {
@@ -2053,7 +2053,7 @@ footer {
 }
 
 .pagamento-frete .frete-titulo p {
-    margin-left: 100px;
+    margin-left: 32%;
 }
 
 .pagamento-frete .frete-titulo {
