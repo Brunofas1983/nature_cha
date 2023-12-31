@@ -31,7 +31,7 @@ span {
 /*------------SEÇÃO INICI0----------*/
 
 #inicio {
-    background-image: url(./images/seção\ 1\ capa.png);
+    background-image: url(./images/secao\ 1\ capa.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,7 +125,7 @@ span {
 
 #vantagens {
     padding: 10px 0 60px 0;
-    background-image: url(./images/background\ seção\ 2.png);
+    background-image: url(./images/background\ secao\ 2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -264,7 +264,7 @@ span {
 /*----------SEÇÃO--BENEFÍCIOS----------*/
 
 #beneficios {
-    background-image: url(./images/fundo\ seção\ beneficios.png);
+    background-image: url(./images/fundo\ secao\ beneficios.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -278,7 +278,7 @@ span {
 #beneficios .beneficios-secao-interna {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    background-image: url(./images/fundo\ interno\ seção\ benefícios.png);
+    background-image: url(./images/fundo\ interno\ secao\ beneficios.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -489,14 +489,14 @@ span {
 /*----------SEÇÃO--PREPARO----------*/
 
 #preparo {
-    background-image: url(./images/fundo\ xicara\ chá.png);
+    background-image: url(./images/fundo\ xicara\ cha.png);
     background-position: center;
     background-size: cover;
     padding-top: 0;
 }
 
 #preparo .preparo-secao-interna {
-    background-image: url(./images/fundo-seção\ xicara.png);
+    background-image: url(./images/fundo-secao\ xicara.png);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -832,7 +832,7 @@ margin-right: 0px;
 /*------SEÇÃO--comparação----------*/
 
 #comparacao {
-    background-image: url(./images/fundo\ seção\ comparação.png);
+    background-image: url(./images/fundo\ secao\ comparacao.png);
     background-position: center;
     background-size: cover;
     padding-top: 20px;
@@ -977,7 +977,7 @@ margin-right: 0px;
 /*----------SEÇÃO--OFERTAS----------*/
 
 #oferta {
-    background-image: url(./images/FUNDO\ SEÇÃO\ OFERTA.png);
+    background-image: url(./images/FUNDO\ SECAO\ OFERTA.png);
     background-position: center;
     background-size: cover;
 }
