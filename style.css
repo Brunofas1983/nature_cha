@@ -21,7 +21,7 @@ html {
 
 
 section {
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 span {
@@ -35,7 +35,7 @@ span {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -124,11 +124,7 @@ span {
 /*-------------SEÇÃO--VANTAGENS----------*/
 
 #vantagens {
-    padding: 10px 0 60px 0;
-    background-image: url(./images/background\ secao\ 2.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    padding: 10px 0 150px 0;
 }
 
 
@@ -146,11 +142,9 @@ span {
     grid-template-columns: repeat(2, 50%);
     background: linear-gradient(180deg, #fff 0%, #f0f0f0 100%);
     border-radius: 15px;
-    max-width: 100%;
+    width: 100%;
     padding: 30px 50px 30px 50px;
     box-shadow: 0 0 15px 0px #00000028;
-    margin-left: 250px;
-    margin-right: 250px;
     }
 
 #vantagens .secao-interna h1 {
@@ -182,7 +176,8 @@ span {
 
 #dores {
     background: linear-gradient(180deg, #96C11F 0%, #7CA900 100%);
-    padding-bottom: 120px;
+    padding-bottom: 150px;
+    padding-top: 150px;
 }
 
 #dores h1 {
@@ -196,8 +191,6 @@ span {
     display: grid;
     grid-template-columns: repeat(3, 33.33%);
     margin-top: 140px;
-    margin-left: 200px;
-    margin-right: 200px;
 }
 
 #dores .dores-secao-interna .dores-secao-interna-col img {
@@ -264,30 +257,32 @@ span {
 /*----------SEÇÃO--BENEFÍCIOS----------*/
 
 #beneficios {
-    background-image: url(./images/fundo\ secao\ beneficios.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 0;
+    padding-bottom: 80px;
+}
+
+#beneficios .beneficios-secao-interna {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 0 10px 0 #838282ad;
+    border-radius: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    background: linear-gradient(180deg, #fff 0%, #f0f0f0 100%);
 }
 
 .bsi-coluna-1-mobile {
     display: none;
 }
 
-#beneficios .beneficios-secao-interna {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    background-image: url(./images/fundo\ interno\ secao\ beneficios.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-left: 250px;
-    padding-right: 200px;
-}
 
 #beneficios .beneficios-secao-interna .bsi-coluna-1 img {
-    width: 472px;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #beneficios .beneficios-secao-interna .bsi-coluna-2 h1  {
@@ -327,7 +322,7 @@ span {
     background: linear-gradient(180deg, #ffffff1a 0%, #bcbcbc1a 9.2%, rgba(208, 208, 208, 0.082) 24%);
     border-radius: 15px;
     margin: 5px;
-    box-shadow: 0 0 10px 0 #00000025;
+    box-shadow: 0 0 15px 0px #00000028;
     margin-top: -15px;
     max-width: 100%;
     height: 95%;
@@ -347,6 +342,7 @@ span {
 
 .swiper-slide {
     height: auto;
+    width: 100px;
 }
 
 .swiper {
@@ -478,8 +474,8 @@ span {
     width: 22%;
     height: 100%;
     position: absolute;
-    top: 0%;
-    left: 78%;
+    top: 10%;
+    left: 88%;
     z-index: 0;
 }
 
@@ -492,22 +488,21 @@ span {
     background-image: url(./images/fundo\ xicara\ cha.png);
     background-position: center;
     background-size: cover;
-    padding-top: 0;
+    padding-top: 150px;
+    padding-bottom: 80px;
 }
 
 #preparo .preparo-secao-interna {
-    background-image: url(./images/fundo-secao\ xicara.png);
-    background-position: center;
-    background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 0px;
     margin-right: 0px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    padding-left: 70px;
-    padding-right: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: 0 0 15px 0px #00000028;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #ffffff1a 0%, #bcbcbc1a 9.2%, rgba(208, 208, 208, 0.082) 24%);
 }
 
 #preparo .preparo-secao-interna .preparo-coluna-interna {
@@ -515,15 +510,14 @@ span {
 }
 
 #preparo .preparo-secao-interna .col-1 {
-    margin-left: 186px;
-    padding-left: 25px;
-    width: 40%;
+    padding-left: 70px;
+    width: 50%;
 }
 
 #preparo .preparo-secao-interna .col-1 h1 {
     font-size: 48px;
     color: #7CA900;
-    margin-top: -100px;
+    margin-top: -30px;
     margin-bottom: 20px;
 }
 
@@ -602,7 +596,7 @@ margin-right: 0px;
 }
 
 #preparo .botao {
-    margin-top: 0;
+    margin-top: 80px;
 }
 
 .folha-preparo-mobile {
@@ -717,11 +711,9 @@ margin-right: 0px;
 /*---------SEÇÃO--PRODUTOS----------*/
 
 #carrosel-produtos {
-    background-image: url(./images/fundo\ produtos.png);
-    background-position: center;
-    background-size: cover;
     padding-left: 0;
     padding-right: 0;
+    padding-top: 0;
 }
 
 
@@ -770,7 +762,7 @@ margin-right: 0px;
 
 #carrosel-produtos .carrosel-produtos-coluna .produtos .swiper-wrapper .swiper-slide {
     margin-right: 0;
-    max-width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -1509,8 +1501,8 @@ footer {
     .secao-interna {
         display: block;
         padding: 30px 10px;
-        margin-left: 8px;
-        margin-right: 8px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .secao-interna img {
@@ -1570,6 +1562,7 @@ footer {
         border-radius: 15px;
         margin: 0 20px;
         padding-top: 40px;
+        padding-bottom: 550px;
     }
 
     #beneficios .beneficios-secao-interna {
@@ -1599,6 +1592,8 @@ footer {
     .bsi-coluna-1-mobile img {
         width: 100%;
         margin-top: 30px;
+        position: absolute;
+        top: 52%;
     }
     
 #beneficios .beneficios-secao-interna .bsi-coluna-1 img {
@@ -1660,7 +1655,7 @@ footer {
     display: block;
     opacity: .3;
     width: 680px;
-    height: 1710px;
+    height: 1600px;
     top: 0%;
     left: -48%;
     z-index: -1;
@@ -1688,6 +1683,8 @@ footer {
 
 #preparo {
     position: relative;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 .folha-preparo-mobile {
@@ -2906,4 +2903,12 @@ footer {
     }
     
 
+}
+
+
+@media screen and (min-width: 1800px) {
+    #inicio {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
 }
